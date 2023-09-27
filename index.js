@@ -20,7 +20,7 @@ const options = {
 const secret = process.env.SECRET;
 app.use(express.json());
 app.use(cors({
-    origin: "https://strong-sable-ed5be0.netlify.app/"
+    origin: "https://strong-sable-ed5be0.netlify.app"
 }))
 
 
